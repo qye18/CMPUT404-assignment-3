@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  margin: 2% 5%;
+  background-color: rgb(166, 176, 181);
+}
+
+.top {
+  height: 270px;
+  background: url('./images/star.jpg') no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.top img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.top > * {
+  padding-bottom: 30px;
+}
+
+.top p {
+  font-size: 16px;
+}
+
+.contact {
+  position: absolute;
+  top: 36%;
+  right: 8%;
+  line-height: 20px;
+  color: white;
+}
+
+.contact li {
+  list-style: none;
+}
+
+nav {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: black;
+}
+
+nav li {
+  padding: 0 20px;
+  display: inline;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.middle > * {
+  border: 1px solid rgb(205, 209, 209);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: rgb(51, 172, 212);
+}
+
+.middle > * h2 {
+  padding-bottom: 15px;
+  color: rgb(251, 211, 109);
+}
+
+.middle > * p span {
+  font-weight: bold;
+}
+
+.middle .line-2 > ul {
+  list-style: none;
+}
+
+.middle .line-1 p{
+  color: white;
+}
+
+.middle .line-2 li {
+  color: red;
+}
+.middle .line-2 li:first-child {
+  color:blue;
+}
+

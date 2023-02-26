@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  margin: 2% 5%;
+  background-color: rgb(240, 238, 235);
+}
+
+.top {
+  height: 270px;
+  background-color: rgb(239, 229, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  position: relative;
+}
+
+.top img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+.top > * {
+  padding-bottom: 30px;
+}
+
+.top p {
+  font-size: 16px;
+}
+
+.contact {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+  line-height: 20px;
+  border-right: 1.5px solid rgb(250,250,250);
+  border-bottom: 1.5px solid rgb(250,250,250);
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.contact li {
+  list-style: none;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav li {
+  padding: 0 20px;
+  list-style: none;
+  border-right: 1px solid rgb(204, 219, 212);
+  display: inline;
+  color: rgb(101, 21, 132);
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.middle > * {
+  border: 1px solid rgb(205, 209, 209);
+  border-radius: 5px;
+  box-shadow: 0 0 4px 1px rgb(205, 209, 209);
+  padding: 20px;
+  margin-top: 30px;
+  background-color: white;
+}
+
+.middle > * h2 {
+  padding-bottom: 15px;
+}
+
+.middle .line-1 p, .middle .line-2, .middle .line-3, .middle .line-4 {
+  line-height: 30px;
+}
+
+.middle > * p span {
+  font-weight: bold;
+}
+
+.middle .line-2 > ul {
+  list-style: none;
+}
+
+.middle .line-2 > ul .detail {
+  padding-left: 40px;
+  list-style:disc;
+  line-height: 20px;
+}
+
+.middle .line-3 ul, .middle .line-4 ul{
+  margin-left: 30px;
+}

@@ -21,4 +21,15 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+No collaboration
+
+Modifications
+===============
+add background image
+add font-family
+adjust h2 margin
+adjust p line-height
+modify a tag color, including a, a:hover, a:active
+
+
 

@@ -25,11 +25,13 @@ No collaboration
 
 Modifications
 ===============
-add background image
-add font-family
-adjust h2 margin
-adjust p line-height
-modify a tag color, including a, a:hover, a:active
+  - add a link tag in html files to get more styles
+  - create a style.css file, including changes:
+    - add background image
+    - add font-family
+    - adjust h2 margin
+    - adjust p line-height
+    - modify a tag color, including a, a:hover, a:active
 
 
 
